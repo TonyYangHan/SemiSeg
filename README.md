@@ -72,10 +72,11 @@ and click on the link printed in the terminal, you will enter a graphical interf
 Once you open `Detect.ipynb`, you can follow the comments to set all parameters to yours and go to `Run` on the top of the bar and click on `Run All Cells`. 
 
 ## (Optional) Train your own model with your own data.
-This project offers
+You can train your own model using your own brightfield images and annotations. The model would better suit your needs if training is done correctly.
+
 1. If you have limited knowledge with semi-supervised learning, I suggest you to learn a little about it as it will be beneficial for understanding the training process.
 
-2. To train an AI model, you need to provide raw images and their corresponding masks (binary annotations) as their "study materials." Fortunately, training a useful semi-supervised detect model only requires you to annotate ~10% of all images, in general. The first step is to label images using Label Studio (free software). Remember to download the annotation `.json` file and export all annotated masks as `.png`.
+2. To train an AI model, you need to provide raw images and their corresponding masks (binary annotations) as their "study materials." Fortunately, training a useful semi-supervised detect model only requires you to annotate ~10% of all images, in general. Make sure to select out train images with high-quality and diverse lighting/contrast conditions. The first step is to label images using Label Studio (free software with instructions on YouTube). Remember to download the annotation `.json` file and export all annotated masks as `.png`.
 
 3. Set the `labeled_imgs` variable to the directory of brightfield image you selected to annotate. (Use `Preprocess.ipynb` to remove the space with underscores) Set `mask_imgs` to the directory of corresponding masks you generated. (Use `Preprocess.ipynb` to match the names of annotations to the images) Set `unlabeled_imgs` to directory of the unlabeled brightfield images.
 
