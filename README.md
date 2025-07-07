@@ -20,19 +20,19 @@ If you encounter issues when using the code, please contact Yang Han (*yah015@uc
 
 4. `Preprocess.ipynb` allows you matching annotations from Label Studio to their corresponding images and change batches of file names easily.
 
-5. `best_student_v2.pth` saves the best trained model for detection of organoids in brightfield images (ready to be loaded and used) Downloadable (here)[https://drive.google.com/file/d/1EdUFLkr4VUbRDltGK2Inpj6Hw1HRxpgX/view?usp=sharing]
+5. `best_student_v2.pth` saves the best trained model for detection of organoids in brightfield images (ready to be loaded and used) Downloadable [here](https://drive.google.com/file/d/1EdUFLkr4VUbRDltGK2Inpj6Hw1HRxpgX/view?usp=sharing)
 
 ## Hardware recommendations
 This package is somewhat computationally demanding. Therefore, running codes with CUDA GPU (most modern NVIDIA GPUs) is **strongly recommended**. It can speed up the run time very significantly, though running on CPU is entirely possible <br>
 
-Cloud computing platforms, such as Google Colab or your own HPC access, is a great choice if you don't have CUDA GPU on your own device.
+Cloud computing platforms, such as Google Colab or your own HPC access, are great choices if you don't have CUDA GPU on your own device.
 
 ## Step to use this repo
 1. Set up the conda environment for running the code files (if haven't already)<br>
 Install miniconda if you have not already. It is a great tool for you to manage the package dependencies so you don't break other package when you change some packages. It is free and easy to install + use.
 You may find the installation instruction [here](https://www.anaconda.com/docs/getting-started/miniconda/install#linux).
 
-For Windows user, it is recommended to install WSL2 and install miniconda on there. (trust me it is not that complicated). Mac users, please use your terminal (you got it for free). If your system is entirely Linux (e.g. Cloud computers), just install it. 
+For Windows user, it is recommended to install WSL2 and install miniconda on there. Mac users, please use your terminal (you got it for free). If your system is entirely Linux (e.g. Cloud computers), just install it. 
 
 ChatGPT can be your great friend in guiding through the installation process. <br>
 
